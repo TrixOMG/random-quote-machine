@@ -1,0 +1,101 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .container {
+    min-height: 100vh;
+    display: flex;
+    background: black;
+    transition: 500ms;
+  }
+  
+  .quote-box {
+    width: 100%;
+    max-width: 400px;
+    min-height: 180px;
+    padding: 30px;
+    background: white;
+    margin: auto;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  
+  p {
+    color: black;
+    font-size: 17px;
+    word-wrap: break-word;
+    text-align: start;
+    animation: ease-in-out 0.5s;
+  }
+  
+  p:last-of-type {
+    margin: 10px 0;
+  }
+  
+  button {
+    border: none;
+    outline: none;
+    margin-right: 12px;
+  }
+  
+  a {
+    text-decoration: none;
+    display: block;
+    text-align: center;
+  }
+  
+  .btn {
+    background: black;
+    color: white;
+    width: 80px;
+    padding: 7px 0;
+    font-size: 14px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 500ms ease-in-out;
+  }
+  
+  .btn:hover {
+    opacity: 0.8;
+  }
+  
+  .btnContainer {
+    display: flex;
+    flex-direction: row;
+    justify-items: space-between;
+  }
+  
+  .quote-text{
+    display: flex;
+    justify-items: baseline;
+  }
+  
+  .author{
+    text-align: right;
+    font-style: italic;
+  }
+  
+  .quote{
+    font-weight: bold;
+  }
+  
+  .coder{
+    text-align: center;
+    color: white;
+    margin-bottom: 10px;
+  }
+  
+  .container{
+    display: flex;
+    flex-direction: column;
+    min-width: 100%; 
+  }
+
+  .icon{
+    padding-right: 6px;
+    padding-top: 6px;
+  }
